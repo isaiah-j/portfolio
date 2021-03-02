@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.container {
+	padding: 0px;
+	margin: 0px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.63)),
+		url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80")
+			center center;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+	position: absolute;
+	z-index: -1;
+	font-size: smaller;
+}
+
+.projects-cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.middle {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	h1 {
+		font-family: 'Yellowtail', cursive;
+	}
+
+	h2 {
+		padding-bottom: 1.5rem;
+	}
+
+	align-items: center;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	h1 {
+		color: rgb(255, 50, 50);
+		font-size: 6rem;
+		font-family: 'Yellowtail', cursive;
+	}
+}
+
+#icon {
+	animation: MoveUpDown 2s linear infinite;
+	position: absolute;
+	bottom: -50px;
+	cursor: pointer;
+	color: rgb(255, 50, 50);
+}
+
+@keyframes MoveUpDown {
+	0%,
+	100% {
+		padding-top: 0;
+	}
+	50% {
+		padding-bottom: 7px;
+	}
+}
+
+@media (max-height: 900px) {
+	#icon {
+		bottom: -45px;
+	}
+}
+
+@media (max-height: 850px) {
+	#icon {
+		bottom: -35px;
+	}
+}
+
+@media (max-height: 790px) {
+	#icon {
+		bottom: -25px;
+	}
+}
+
+@media (max-height: 570px) {
+	#icon {
+		bottom: -7px;
+	}
+}
+
+@media (max-height: 430px) {
+	#icon {
+		bottom: 0;
+	}
+}
+
+@media (max-height: 380px) {
+	#icon {
+		bottom: 5px;
+	}
+}

@@ -1,0 +1,45 @@
+.container {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+
+.fields {
+	display: grid;
+	grid-gap: 2rem;
+	width: 45%;
+}
+
+#submit {
+	border: 1px solid #1fad37;
+	color: #1fad37;
+	&:hover {
+		background-color: #1fad3721;
+	}
+}
+
+@media (max-width: 930px) {
+	.fields {
+		width: 65%;
+	}
+}
+
+@media (max-width: 830px) {
+	.fields {
+		width: 75%;
+	}
+}
+
+@media (max-width: 730px) {
+	.fields {
+		width: 85%;
+	}
+}
+
+@media (max-width: 630px) {
+	.fields {
+		width: 95%;
+	}
+}

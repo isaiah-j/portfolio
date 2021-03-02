@@ -1,0 +1,18 @@
+.container{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 2;
+    // border-top: 1px solid rgba(255, 0, 0, 0.377);
+}
+
+// God forgive me for my sins
+.icon{
+    color: white !important;
+}
+
+.selected{
+    color: rgb(255, 50, 50) !important;
+}
